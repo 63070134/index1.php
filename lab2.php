@@ -11,16 +11,16 @@
         <div class="container">
             <div class="row" style="height: 200px">
                 <div class="col-12 col-md-6">
-                    <img src="img/work/work.jpg" style="height: 600px; width: 100%;" class="img-fluid"/>
+                    <img src="work.jpg" style="height: 600px; width: 100%;" class="img-fluid"/>
                 </div>
                 <div class="col-12 col-md-3">
-                    <img src="img/work/work1.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
-                    <img src="img/work/work2.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
-                    <img src="img/work/work3.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
+                    <img src="work1.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
+                    <img src="work2.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
+                    <img src="work3.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
                 </div>
                 <div class="col-12 col-md-3">
-                    <img src="img/work/work4.jpg" style="height: 400px; width: 100%;" class="img-fluid"/>
-                    <img src="img/work/work5.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
+                    <img src="work4.jpg" style="height: 400px; width: 100%;" class="img-fluid"/>
+                    <img src="work5.jpg" style="height: 200px; width: 100%;" class="img-fluid"/>
                 </div>
             </div>
         </div>
