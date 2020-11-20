@@ -1,3 +1,4 @@
+  
 <html>
 <head>
 <title>ITF Lab</title>
@@ -16,7 +17,7 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<table class="table table-bordered table table-hover ">
+<table class="table table-dark gray">
   <thead class="thead-dark">
     <tr>
       <th width="100"> <div align="center">Name</div></th>
@@ -34,8 +35,8 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['Comment'];?></td>
     <td><?php echo $Result['Link'];?></td>
     <td align="center">
-      <a href="delete.php?ID=<?php echo $Result['ID'];?>" class="btn btn-primary">DEL</a>
-      <a href="edit.php?ID=<?php echo $Result['ID'];?>" class="btn btn-primary">EDIT</a>
+      <a href="delete.php?ID=<?php echo $Result['ID'];?>" class="btn btn-outline-primary">DEL</a>
+      <a href="edit.php?ID=<?php echo $Result['ID'];?>" class="btn btn-outline-primary">EDIT</a>
     </td>
   </tr>
 <?php
@@ -44,7 +45,7 @@ while($Result = mysqli_fetch_array($res))
 </table>
   <center>
     <a href="form.html">
-      <button type="submit" class="btn btn-primary" align="center">ADD</button>
+      <button type="submit" class="btn btn-outline-primary" align="center">ADD</button>
     </a>
   </center>
 <?php
