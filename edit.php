@@ -27,7 +27,7 @@
     <textarea rows="10" cols="20" name = "Comment" value="<?php echo $data['Comment']; ?>" placeholder="Enter Comment"></textarea><br>  
     Link:<br>
     <input type="text" name = "Link" value="<?php echo $data['Link']; ?>" placeholder="Enter Link"> <br><br>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-outline-primary">Submit</button>
   </form> 
 </body>
 </html>
