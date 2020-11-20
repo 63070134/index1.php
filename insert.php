@@ -37,6 +37,6 @@ mysqli_close($conn);
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <br><a href="show.php" class="btn btn-primary">BACK</a>
+  <br><a href="show.php" class="btn btn-outline-primary">BACK</a>
 </body>
 </html>
