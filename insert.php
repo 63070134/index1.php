@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('63070054itf.mysql.database.azure.com', 'waveza2@63070054itf', 'Zaza456654', 'ITFlab', 3306);
+$conn = mysqli_connect('lab13.mysql.database.azure.com', 'panupong@lab13', 'Bb24012545', 'ITFlab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
